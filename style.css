@@ -1,0 +1,190 @@
+html, body {
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-size:12px;
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*-------- Navbar --------*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar .nav-link {
+    font-size: 120%;
+    background-color: #04021c;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.bg-dark {
+    background-color: #04021c!important;
+}
+
+.navbar-nav > li > a:hover {
+    transition: all 0.3s;
+    color: #FFF;
+}
+
+.navbar .active {
+    background: #FFF !important;
+    color: #000 !important;    
+}
+
+.navbar-nav > li > a:hover {
+    cursor:pointer;
+    background-color: #FFF;
+    color: #000 !important; 
+}
+
+/*-------- Seperator --------*/
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #AAA;
+    align-self: flex-end;
+}
+
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #BBB;
+}
+
+.separator::before {
+    margin-right: .25em;
+}
+
+.separator::after {
+    margin-left: .25em;
+}
+
+
+/*-------- Footer --------*/
+
+.hust {
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.tpl {
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.trustai {
+    margin-top: 3%;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.exeter {
+    margin-top: 4%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #04021c/*#2d3436*/;
+    color: #e0e0e0;
+}
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+    html, body {
+        font-size: 12px;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+
+    html, body {
+        font-size: 14px;
+    }
+
+    body::after {
+        height: 100px;
+        /* Set same as footer's height */
+    }
+
+    /*-------- Footer --------*/
+
+    .footer {
+        height: 100px;
+    }
+
+    .hust {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .tpl {
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .trustai {
+        margin-top: 5%;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .exeter {
+        margin-top: 7%;
+        margin-left: 25%;
+        width: 50%;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1440px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1600px) {
+    html, body {
+        font-size: 18px;
+    }
+}

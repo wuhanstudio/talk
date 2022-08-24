@@ -1,6 +1,6 @@
 html, body {
     font-family: 'Lato', 'Arial', 'sans-serif';
-    font-size:12px;
+    font-size:18px;
     height: 100%;
     width: 100%;
     background-color: #FFF;
@@ -125,7 +125,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
     html, body {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
  
@@ -133,7 +133,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 @media (min-width: 768px) {
 
     html, body {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     body::after {

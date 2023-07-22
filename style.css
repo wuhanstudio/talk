@@ -32,6 +32,15 @@ a:active {
   text-decoration: none;
 }
 
+.zoom {
+    transition: transform .3s; /* Animation */
+}
+
+.zoom:hover {
+    /* transform: scale(1.05); */
+    filter: brightness(0.98);
+}
+
 /*-------- Navbar --------*/
 
 .navbar-dark .navbar-nav .nav-link {

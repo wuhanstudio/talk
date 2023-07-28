@@ -16,6 +16,10 @@ img {
     max-height: 100%;
 }
 
+a.disabled {
+    pointer-events: none;
+}
+
 a:link {
   text-decoration: none;
 }

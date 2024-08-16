@@ -176,6 +176,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         width: 80%;
     }
 
+    .soton {
+        margin-top: 5%;
+        margin-left: 15%;
+        width: 70%;
+    }
+
     .trustai {
         margin-top: 5%;
         margin-left: 15%;

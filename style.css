@@ -102,7 +102,7 @@ a:active {
 
 .hust {
     margin-top: 1%;
-    margin-left: 10%;
+    margin-left: 12%;
     width: 80%;
 }
 
@@ -112,9 +112,15 @@ a:active {
     width: 70%;
 }
 
+.soton {
+    margin-top: 8%;
+    margin-left: 16%;
+    width: 65%;
+}
+
 .newcastle {
-    margin-top: 7%;
-    margin-left: 15%;
+    margin-top: 3%;
+    margin-left: 18%;
     width: 60%;
 }
 
@@ -125,7 +131,7 @@ a:active {
 }
 
 .exeter {
-    margin-top: 4%;
+    margin-top: 6%;
     margin-left: 25%;
     width: 50%;
 }
@@ -180,6 +186,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         margin-top: 5%;
         margin-left: 10%;
         width: 80%;
+    }
+
+    .newcastle {
+        margin-top: 7%;
+        margin-left: 15%;
+        width: 60%;
     }
 
     .soton {
